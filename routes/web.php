@@ -23,3 +23,5 @@ require __DIR__.'/auth.php';
 
 route::get('admin/dashboard', [HomeController::class, 'index'])->name('admin.dashboard')
     ->middleware(['auth', 'admin']);
+
+route::get('/get/banks/FPX', [\App\Http\Controllers\testController::class, 'getBankFPX'])->name('get:banks');

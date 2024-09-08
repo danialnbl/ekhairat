@@ -13,7 +13,7 @@
 {{--                </div>--}}
 {{--            </div>--}}
 {{--            Card Information--}}
-            <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-x-4">
+            <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-x-4 justify-center">
                 <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-2">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">TUNTUTAN DALAM PROSES</h5>
                     <p class="mb-3 font-normal text-green-500 dark:text-green-500">0</p>

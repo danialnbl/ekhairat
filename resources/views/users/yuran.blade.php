@@ -5,9 +5,10 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-
+    <div class="py-6">
+        <h1 class="m-6">Senarai Yuran</h1>
+        <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
+            <livewire:payments />
         </div>
     </div>
 </x-app-layout>

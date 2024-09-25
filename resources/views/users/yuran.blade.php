@@ -8,7 +8,7 @@
     <div class="py-6">
         <h1 class="m-6">Senarai Yuran</h1>
         <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-4">
-            <livewire:payments />
+
             <button type="button" class="place-items-end focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 align">Bayar Yuran Tertunggak</button>
         </div>
 

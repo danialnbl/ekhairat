@@ -10,14 +10,13 @@ class payment extends Model
     use HasFactory;
 
     protected $fillable = [
-        'created_at',
-        'feeID',
-        'transID',
-        'orderID',
+        'payment_value',
+        'payment_description',
+        'user_id',
     ];
 
-    protected $hidden = [
-        'user_id',
-        'id',
-    ];
+//    protected $hidden = [
+//        'user_id',
+//        'payment_id',
+//    ];
 }

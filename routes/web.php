@@ -27,8 +27,18 @@ Route::get('/yuran', function () {
     return view('/users/yuran');
 })->middleware(['auth', 'verified'])->name('yuran');
 
+Route::get('/payment', function () {
+    return view('/users/payment');
+})->middleware(['auth', 'verified'])->name('payment');
+
 //Admin Func
 route::get('admin/dashboard', [HomeController::class, 'index'])->name('admin.dashboard')
     ->middleware(['auth', 'admin']);
 
 route::get('/get/banks/FPX', [\App\Http\Controllers\testController::class, 'getBankFPX'])->name('get:banks');
+
+route::get('/create/fee', [\App\Http\Controllers\FeeController::class,'createFee'])->name('create:fee');
+
+Route::post('submit/yuran', [\App\Http\Controllers\FeeController::class, 'submitYuran'])->name('submit:yuran');
+
+Route::get('/bill/payment/{bill_code}', [App\Http\Controllers\FeeController::class, 'billPaymentLink'])->name('bill:payment');

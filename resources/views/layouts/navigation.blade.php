@@ -19,12 +19,12 @@
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                        <x-nav-link :href="route('payment')" :active="request()->routeIs('payment')">
                             {{ __('Tuntutan') }}
                         </x-nav-link>
                     </div>
                     <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                        <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                        <x-nav-link :href="route('yuran')" :active="request()->routeIs('yuran')">
                             {{ __('Yuran') }}
                         </x-nav-link>
                     </div>

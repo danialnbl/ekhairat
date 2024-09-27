@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://safni.ekhairat.com/assets/ekhairat_logo_full-2fb4c786ff84c5b6ad1d45bd3468dcfd.png" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://i.ibb.co/GpFRMtX/Green-Gold-Modern-Islamic-Logo.png" width="400" alt="Laravel Logo"></a></p>
 <p align="center">
 </p>
 
